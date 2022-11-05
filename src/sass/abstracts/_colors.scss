@@ -1,0 +1,14 @@
+:root {
+  --primary: hsl(256, 82%, 55%);
+  --secondary: hsl(191, 86%, 52%);
+  --error: hsl(335, 84%, 55%);
+  --success: hsl(164, 100%, 36%);
+  --warning: hsl(40, 89%, 60%);
+  --background: hsl(240, 45%, 98%);
+  --color: black;
+}
+
+[data-theme="dark"] {
+  --background: hsl(0, 0%, 7%);
+  --color: white;
+}
