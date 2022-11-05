@@ -1,0 +1,47 @@
+@use "../abstracts" as *;
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5rem;
+}
+
+.main-header {
+  display: flex;
+  background-color: var(--background);
+}
+
+nav {
+  display: none;
+  position: relative;
+  border: solid blue 1px;
+  height: 100%;
+  min-height: 3rem;
+  width: 100%;
+  text-align: center;
+  a {
+    align-self: center;
+    border: 0;
+    padding: 0 1rem 0 1rem;
+    height: 100%;
+    &:hover {
+      background-color: red;
+    }
+  }
+}
+
+.logo {
+  width: 10rem;
+  margin: 2rem 0;
+}
+
+.main-article {
+  border: solid red 1px;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.main-footer {
+  border: solid purple 1px;
+  padding: 1rem;
+}
